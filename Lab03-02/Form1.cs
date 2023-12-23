@@ -83,15 +83,7 @@ namespace Lab03_02
                 // Kiểm tra định dạng của tập tin và thực hiện xử lý tương ứng
                 if (fileName.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
                 {
-                    // Xử lý tập tin *.txt
-                    try
-                    {
-                        richText.LoadFile(fileName, RichTextBoxStreamType.PlainText);
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show("Không thể mở tập tin: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                 //23423423423424
                 }
                 else if (fileName.EndsWith(".rtf", StringComparison.OrdinalIgnoreCase))
                 {
@@ -211,6 +203,11 @@ namespace Lab03_02
                     richText.Font = newFont;
                 }
             }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            //ewrwer
         }
     }
 }
