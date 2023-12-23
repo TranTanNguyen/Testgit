@@ -30,7 +30,7 @@ namespace Lab03_02
                 toolStripComboBox2.Items.Add(size.ToString());
             }
             toolStripComboBox1.SelectedItem = "Tahoma";
-            toolStripComboBox2.SelectedItem = "14";
+            toolStripComboBox2.SelectedItem = "19";
         }
         // Khởi tạo font chữ có sẵn của Windowns
         private void địnhDạngToolStripMenuItem_Click(object sender, EventArgs e)
@@ -57,7 +57,7 @@ namespace Lab03_02
             richText.Clear();
             richText.Font = new Font("Tahoma", 14, FontStyle.Regular);
             toolStripComboBox1.SelectedItem = "Tahoma";
-            toolStripComboBox2.SelectedItem = "14";
+            toolStripComboBox2.SelectedItem = "19";
 
         }
         // Hàm tạo mới văn bản
