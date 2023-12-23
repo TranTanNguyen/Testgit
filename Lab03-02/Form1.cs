@@ -61,6 +61,14 @@ namespace Lab03_02
             toolStripComboBox2.SelectedItem = "19";
 
         }
+        private void cc(object sender, EventArgs e)
+        {
+            richText.Clear();
+            richText.Font = new Font("Tahoma", 14, FontStyle.Regular);
+            toolStripComboBox1.SelectedItem = "Tahoma";
+            toolStripComboBox2.SelectedItem = "19";
+
+        }
         // Hàm tạo mới văn bản
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
