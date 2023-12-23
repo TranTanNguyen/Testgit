@@ -16,6 +16,7 @@ namespace Lab03_02
         public Form1()
         {
             // helo ban nho
+            // xin chao toi la 
             InitializeComponent();
             // Thêm tất cả các font đã được khởi tạo
             foreach (FontFamily font in new InstalledFontCollection().Families)
