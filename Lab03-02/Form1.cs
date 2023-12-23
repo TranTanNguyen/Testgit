@@ -60,6 +60,11 @@ namespace Lab03_02
             toolStripComboBox2.SelectedItem = "14";
 
         }
+        private void qưẻqwrqwrk(object sender, EventArgs e)
+        {
+           ///qưẻqwerwqr
+
+        }
         // Hàm tạo mới văn bản
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
