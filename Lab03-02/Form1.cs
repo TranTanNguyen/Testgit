@@ -29,6 +29,10 @@ namespace Lab03_02
             toolStripComboBox1.SelectedItem = "Tahoma";
             toolStripComboBox2.SelectedItem = "14";
         }
+        public void tong()
+        {
+            // not cai gi thi not
+        }
         // Khởi tạo font chữ có sẵn của Windowns
         private void địnhDạngToolStripMenuItem_Click(object sender, EventArgs e)
         {
