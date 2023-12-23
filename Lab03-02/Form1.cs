@@ -16,11 +16,7 @@ namespace Lab03_02
         public Form1()
         {
             // helo ban nho
-<<<<<<< HEAD
-            //hihi haha 
-=======
-            // xin chao toi la 
->>>>>>> binh
+
             InitializeComponent();
             // Thêm tất cả các font đã được khởi tạo
             
