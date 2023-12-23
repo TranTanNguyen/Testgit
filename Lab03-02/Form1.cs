@@ -16,13 +16,14 @@ namespace Lab03_02
         public Form1()
         {
             // helo ban nho
+<<<<<<< HEAD
             //hihi haha 
+=======
+            // xin chao toi la 
+>>>>>>> binh
             InitializeComponent();
             // Thêm tất cả các font đã được khởi tạo
-            foreach (FontFamily font in new InstalledFontCollection().Families)
-            {
-                toolStripComboBox1.Items.Add(font.Name);
-            }
+            
             // Thêm kiểu chữ 
             int[] sizes = { 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72 };
             foreach (int size in sizes)
@@ -31,6 +32,10 @@ namespace Lab03_02
             }
             toolStripComboBox1.SelectedItem = "Tahoma";
             toolStripComboBox2.SelectedItem = "19";
+        }
+        public void tong()
+        {
+            // not cai gi thi not
         }
         // Khởi tạo font chữ có sẵn của Windowns
         private void địnhDạngToolStripMenuItem_Click(object sender, EventArgs e)
