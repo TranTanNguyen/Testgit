@@ -19,10 +19,7 @@ namespace Lab03_02
             // xin chao toi la 
             InitializeComponent();
             // Thêm tất cả các font đã được khởi tạo
-            foreach (FontFamily font in new InstalledFontCollection().Families)
-            {
-                toolStripComboBox1.Items.Add(font.Name);
-            }
+            
             // Thêm kiểu chữ 
             int[] sizes = { 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72 };
             foreach (int size in sizes)
